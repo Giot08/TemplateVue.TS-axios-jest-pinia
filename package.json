@@ -1,0 +1,26 @@
+{
+  "name": "vue-template-ts-router-pinia-axios-jest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "pinia": "^2.0.20",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "jest": "^28.1.3",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vue-tsc": "^0.39.5"
+  }
+}
